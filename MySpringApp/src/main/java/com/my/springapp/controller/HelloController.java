@@ -20,7 +20,7 @@ public class HelloController {
 	//@ApiOperation(value = "hello, World API", notes = "hello, World를 반환하는 API, Ajax 통신 확인용.")
 	public ResponseEntity<ApiResponseMessage> helloWorld() {
 		ApiResponseMessage message = new ApiResponseMessage("Success", "Hello, World", "", "");
-		System.out.println("GIT..!!");
+		//System.out.println("GIT..!!");
 		return new ResponseEntity<ApiResponseMessage>(message, HttpStatus.OK);
 	}
 
